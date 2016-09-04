@@ -34,6 +34,15 @@ This table is not mandatory to be recognised as a valid MPF, however, it is usel
 This table holds 4 columns: id (integer), name (varchar 255), startPowerPoints (integer), description (text).
 
 
+Example:
+
+|id|name|sPP|desc|
+|---|---|---|---|
+| 1 | Mario | 3 | plumber |
+| 2 | Luigi | 5 | brother |
+| 3 | Peach | 4 | princess |
+
+
 #Roadmap
 
 __v0.1__
