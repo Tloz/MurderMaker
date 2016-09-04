@@ -7,7 +7,7 @@ Here are the tables you will find in a MPF:
 
 ###MPF
 This table must be present in the database, otherwise the file won't be recognise as a valid MPF.
-There shall be two columns, one named "key" (varchar 255), the other one "values" (text).
+There shall be two columns, one named "key" (varchar), the other one "values" (text).
 In **v0.1**, four keys are needed to make a valid MPF:
 - *MPF version* : this is the standard MPF version when the file is created (format: float)
 - *utility* : name of the software used to create the file (format: string)
@@ -16,7 +16,7 @@ In **v0.1**, four keys are needed to make a valid MPF:
 
 
 ###Scenario
-This table is not mandatory to be recognised as a valid MPF, however, it is useless not to have it, as it holds the basics informations for the game. As for the MPF table, there shall be two columns, one named "key" (varchar 255), the other one "values" (text).
+This table is not mandatory to be recognised as a valid MPF, however, it is useless not to have it, as it holds the basics informations for the game. As for the MPF table, there shall be two columns, one named "key" (varchar), the other one "values" (text).
 In **v0.1** here's what you can find in this table:
 - *storyName* : The name of the scenario (format: string)
 - *players* : number of player for the game (format: int)
@@ -34,7 +34,7 @@ This table is not mandatory to be recognised as a valid MPF, however, it is usel
 This table holds 4 columns: id (integer), name (varchar 255), startPowerPoints (integer), description (text).
 
 
-#ROADMAP
+#Roadmap
 
 __v0.1__
 Version 0.1 features format-specifics informations, general scenario informations and player data.
