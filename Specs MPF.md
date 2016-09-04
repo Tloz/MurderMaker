@@ -47,16 +47,19 @@ Example:
 | 1 | Mario | 3 | plumber |
 | 2 | Luigi | 5 | brother |
 | 3 | Peach | 4 | princess |
+| 4 | Toad  | 4 | Mushroom |
 
 
 ##v0.11
 Version 0.11 adds status for characters (player, GM, NPC)
 In the **Character** table, we add a new column called type (varchar)
+
 |id|name|sPP|desc|type|
 |---|---|---|---|---|
 | 1 | Mario | 3 | plumber |player|
 | 2 | Luigi | 5 | brother |GM|
 | 3 | Peach | 4 | princess |NPC|
+| 4 | Toad  | 4 | Mushroom |NPC|
 
 
 ##v0.2
