@@ -45,11 +45,17 @@ Version 0.11 adds status for characters (player, GM, NPC)
 __v0.2__
 Version 0.2 supports investigations.
 
-__v0.23__
-Version 0.23 sets precisely duration format.
+__v0.21__
+Version 0.21 adds a few facultatives data in MPF Table (contact, legal, made by).
 
-__v0.3__
-Version 0.3 adds support of scenario events and investigation reports.
+__v0.22__
+Version 0.22 sets precisely duration format.
 
-__v0.4__
-Version 0.4 will support user scripts. This needs a lot of work, and needs to be clearly defined.
+__v1.0__
+Version 1.0 adds support of scenario events and investigation reports.
+
+__v2.0__
+Version 2.0 adds support of various rulesets.
+
+__v3.0__
+Version 3.0 will support user scripts. This needs a lot of work, and needs to be clearly defined.
